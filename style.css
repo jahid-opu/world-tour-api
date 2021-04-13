@@ -1,0 +1,33 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.country {
+    background-color:  rgba(2, 32, 88, 0.836);
+    padding:10px 20px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.country:hover{
+    background-color: rgba(9, 61, 156, 0.836);
+}
+#country-container {
+    display: block;
+}
+#countryDetails{
+    background-color:  rgba(2, 32, 88, 0.836) ;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    display: none;
+}
+#back {
+    padding: 15px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
